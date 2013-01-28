@@ -1,0 +1,1 @@
+Take a look at [example.config.json](https://github.com/appleifreak/Turbo/blob/master/example.config.json) for an example configuration file. Make changes to it (specifically the Mongo and Redis connection data) and change it's name to `config.json`. Running a quick `node app.js` should boot it successfully.
