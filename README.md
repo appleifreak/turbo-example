@@ -1,6 +1,6 @@
 This is bare bones example of how to set up [Turbo](https://github.com/appleifreak/Turbo).
 
-Take a look at [example.config.json](https://github.com/appleifreak/Turbo/blob/master/example.config.json) for an example configuration file. Make changes to it (specifically the Mongo and Redis connection data) and change it's name to `config.json`.
+Take a look at [example.config.json](https://github.com/appleifreak/turbo-example/blob/master/example.config.json) for an example configuration file. Make changes to it (specifically the Mongo and Redis connection data) and change it's name to `config.json`.
 
 To boot, run `npm install` and then `node app.js`. It should boot it successfully.
 
