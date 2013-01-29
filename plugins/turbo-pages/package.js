@@ -28,7 +28,7 @@ Turbo.router.register_forward("page", function(req, res) {
 	
 	// Precompile, cache, compile, cache, cache, return, cache
 	var compiled = layout.compile(data);
-	Turbo.router.cache_route(req.route.pathname, compiled, 60 * 3);
+	Turbo.router.cache_route(req.route.pathname, compiled, "text/html", 60 * 3);
 	
 	res.type("html");
 	res.send(compiled);
